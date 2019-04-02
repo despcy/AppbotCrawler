@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
+import sys
 import csv
 import json
 from pdb import set_trace as bp;
 data=[]
-filename="Apple-3176"
-with open(filename+'.json') as f:
+filename=sys.argv[1]
+with open(filename) as f:
     data = json.load(f)
 
 with open(filename+'.csv', mode='w') as file:
