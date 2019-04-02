@@ -3,23 +3,23 @@
 
 # Supported plantforms:
 
-
+![](./art/apps.png)
 
 ## Usage:
 
-### 1. 
+### 1.
 
 Go to https://app.appbot.co/users/sign_up and register an account using a fake email (no email verification needed)
 
 ![](./art/freetrial.png)
 
-### 2. 
+### 2.
 
 Add your app
 
 ![](./art/addApp.png)
 
-### 3. 
+### 3.
 
 Go to the review page of your app
 
@@ -36,25 +36,23 @@ Go to the review page of your app
 ![](./art/sessionVal.png)
 
 
-### 4. 
+### 4.
 
 run
 
 `python appbot.py <_appbot_session> <Key> <Url>`
 
-### 5. 
+### 5.
 
 The json file will be downloaded, to convert the json file into csv, run:
 
 `python json2csv.py <filename>`
 
-### 6. 
+### 6.
 
 result:
 
 ![](./art/result.png)
 
 
-### 7.
-
-Give me a star if you like it 😃
+### 7. **Give me a star if you like it 😃 **
