@@ -27,7 +27,7 @@ Go to the review page of your app
 
 `https://app.appbot.co/reviews?app=751881&start=2019-01-02&end=2019-04-02`
 
-`<Key>`: Rightclick the browser->Open the console of the browser, input document.cookie to get the cookie and window._____.k to get the key:
+`<Key>`: Rightclick the browser->Open the console of the browser, input `window._____.k` to get the key:
 
 ![](./art/key.png)
 
