@@ -14,8 +14,8 @@ with open(filename+'.csv', mode='w') as file:
     for review in data["reviews"]:
         try:
            # bp()
-            writer.writerow([str(review["rating"]),review["published_at"].encode('utf-8'),review["software_type"].encode('utf-8'), \
-               review["author"].encode('utf-8'),str(review["country_id"]),review["classify_v1"]["language"],review["body"].encode('utf-8'), \
-               review["share_url"].encode('utf-8'),review["classify_v1"]["sentiment_label"].encode('utf-8')])
+            writer.writerow([str(review["rating"]),review["published_at"],review["software_type"], \
+               review["author"],str(review["country_id"]),review["classify_v1"]["language"],review["body"], \
+               review["share_url"],review["classify_v1"]["sentiment_label"]])
         except Exception as e:
             print(e)
